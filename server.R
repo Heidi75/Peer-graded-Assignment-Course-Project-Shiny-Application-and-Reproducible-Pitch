@@ -22,7 +22,7 @@ shinyServer(
     
     output$plot <- renderPlot({
         
-        chartSeries(dataInput(), theme = chartTheme("white"),
+        chartSeries(dataInput(), theme = chartTheme("white"), show.grid = TRUE,
                     type = "line", TA = NULL)
     })
     

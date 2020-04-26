@@ -17,7 +17,7 @@ shinyUI(fluidPage(
     ),
     sidebarLayout(
         sidebarPanel(
-            h2("WTI is used as a benchmark in oil"),
+            h4("Yahoo uses CL=F ticker for Crude oil"),
             p("The price of oil is what is determining political alliances, since the USA dollar - is the petro-dollar, it is the indicator of future, better then the inflated markets with lack of capital, or a belief that people vote for politicians"),
             
             img(src = "Trump milking Saudi.jpg", height = 250, width = 350),
@@ -27,7 +27,7 @@ shinyUI(fluidPage(
             p("March 2020 Saudi and Russia sinks oil prices"),
             helpText("Select a event to examine, by date. Significant dates at the bottom of the page" ),
             
-            textInput("symb", "Symbol", "WTI"),
+            textInput("symb", "Symbol", "CL=F"),
             
             dateRangeInput("dates",
                            "Date range",
