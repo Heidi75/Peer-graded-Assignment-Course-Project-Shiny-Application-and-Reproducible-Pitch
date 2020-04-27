@@ -10,3 +10,4 @@ and the changes of the oil market.  The oil market chart is already given yet th
 they want.   There are suggestions of dates corresponging to changes in political events and oil on the App page itself.
 
 Reproducible Pitch Presentation
+https://rpubs.com/Heidi75/605911
